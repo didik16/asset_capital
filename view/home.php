@@ -2,7 +2,6 @@
 
 
 <!doctype html>
-<html class="no-js" lang="en">
 
 <?php includeWithVariables('view/include/script_header.php', array('title' => 'Home')); ?>
 

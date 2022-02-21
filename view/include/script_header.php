@@ -29,8 +29,6 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
 
     <!-- All css here -->
-    <!-- <link rel="stylesheet" href="<?php echo ASSET_URL ?>css/bootstrap.min.css"> -->
-
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo ASSET_URL ?>css/styles-merged.css">
     <link rel="stylesheet" href="<?php echo ASSET_URL ?>css/style.min.css">
