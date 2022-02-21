@@ -1,52 +1,15 @@
+<?php include 'config/includeWithVariables.php'; ?>
+
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<?php includeWithVariables('view/include/script_header.php', array('title' => 'Home')); ?>
+
 <body>
+    <?php include 'include/header.php'; ?>
 
-
-    <nav class="navbar navbar-default probootstrap-navbar">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html" title="uiCookies:Enlight">Enlight</a>
-            </div>
-
-            <div id="navbar-collapse" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="causes.html">Causes</a></li>
-                    <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Pages</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="testimonial.html">Testimonial</a></li>
-                            <li><a href="cause-single.html">Cause Single</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li class="dropdown-submenu dropdown">
-                                <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span>Sub Menu</span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Second Level Menu</a></li>
-                                    <li><a href="#">Second Level Menu</a></li>
-                                    <li><a href="#">Second Level Menu</a></li>
-                                    <li><a href="#">Second Level Menu</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="news.html">News</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="probootstra-cta-button last"><a href="donate.html" class="btn btn-primary">Donate</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <section class="probootstrap-hero" style="background-image: url(img/hero_bg_bw_1.jpg)" data-stellar-background-ratio="0.5">
+    <section class="probootstrap-hero" style="background-image: url(<?php echo ASSET_URL ?>img/hero_bg_bw_1.jpg)" data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -107,7 +70,7 @@
                 <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate" data-animate-effect="fadeIn">
                     <div class="probootstrap-image-text-block probootstrap-cause">
                         <figure>
-                            <img src="img/img_sm_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                            <img src="<?php echo ASSET_URL ?>img/img_sm_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                         </figure>
                         <div class="probootstrap-cause-inner">
                             <div class="progress">
@@ -130,7 +93,7 @@
                 <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate" data-animate-effect="fadeIn">
                     <div class="probootstrap-image-text-block  probootstrap-cause">
                         <figure>
-                            <img src="img/img_sm_2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                            <img src="<?php echo ASSET_URL ?>img/img_sm_2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                         </figure>
                         <div class="probootstrap-cause-inner">
                             <div class="progress">
@@ -154,7 +117,7 @@
                 <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate" data-animate-effect="fadeIn">
                     <div class="probootstrap-image-text-block  probootstrap-cause">
                         <figure>
-                            <img src="img/img_sm_3.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                            <img src="<?php echo ASSET_URL ?>img/img_sm_3.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                         </figure>
                         <div class="probootstrap-cause-inner">
                             <div class="progress">
@@ -184,7 +147,7 @@
     </section>
 
 
-    <section class="probootstrap-section probootstrap-bg probootstrap-section-dark" style="background-image: url(img/hero_bg_bw_1.jpg)" data-stellar-background-ratio="0.5">
+    <section class="probootstrap-section probootstrap-bg probootstrap-section-dark" style="background-image: url(<?php echo ASSET_URL ?>img/hero_bg_bw_1.jpg)" data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center section-heading probootstrap-animate" data-animate-effect="fadeIn">
@@ -196,7 +159,7 @@
                 <div class="col-md-3">
                     <div class="probootstrap-donors text-center probootstrap-animate">
                         <figure class="media">
-                            <img src="img/person_6.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                            <img src="<?php echo ASSET_URL ?>img/person_6.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                         </figure>
                         <div class="text">
                             <h3>Linda Reyez</h3>
@@ -207,7 +170,7 @@
                 <div class="col-md-3">
                     <div class="probootstrap-donors text-center probootstrap-animate">
                         <figure class="media">
-                            <img src="img/person_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                            <img src="<?php echo ASSET_URL ?>img/person_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                         </figure>
                         <div class="text">
                             <h3>Chris Worth</h3>
@@ -218,7 +181,7 @@
                 <div class="col-md-3">
                     <div class="probootstrap-donors text-center probootstrap-animate">
                         <figure class="media">
-                            <img src="img/person_5.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                            <img src="<?php echo ASSET_URL ?>img/person_5.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                         </figure>
                         <div class="text">
                             <h3>Janet Morris</h3>
@@ -230,7 +193,7 @@
 
                     <div class="probootstrap-donors text-center probootstrap-animate">
                         <figure class="media">
-                            <img src="img/person_7.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                            <img src="<?php echo ASSET_URL ?>img/person_7.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                         </figure>
                         <div class="text">
                             <h3>Jessa Sy</h3>
@@ -258,7 +221,7 @@
 
                             <div class="probootstrap-testimony-wrap text-center">
                                 <figure>
-                                    <img src="img/person_1.jpg" alt="Free Bootstrap Template by uicookies.com">
+                                    <img src="<?php echo ASSET_URL ?>img/person_1.jpg" alt="Free Bootstrap Template by uicookies.com">
                                 </figure>
                                 <blockquote class="quote">&ldquo;Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained.&rdquo; <cite class="author"> &mdash; <span>Mike Fisher</span></cite></blockquote>
                             </div>
@@ -267,7 +230,7 @@
                         <div class="item">
                             <div class="probootstrap-testimony-wrap text-center">
                                 <figure>
-                                    <img src="img/person_2.jpg" alt="Free Bootstrap Template by uicookies.com">
+                                    <img src="<?php echo ASSET_URL ?>img/person_2.jpg" alt="Free Bootstrap Template by uicookies.com">
                                 </figure>
                                 <blockquote class="quote">&ldquo;Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.&rdquo; <cite class="author"> &mdash;<span>Jorge Smith</span></cite></blockquote>
                             </div>
@@ -275,7 +238,7 @@
                         <div class="item">
                             <div class="probootstrap-testimony-wrap text-center">
                                 <figure>
-                                    <img src="img/person_3.jpg" alt="Free Bootstrap Template by uicookies.com">
+                                    <img src="<?php echo ASSET_URL ?>img/person_3.jpg" alt="Free Bootstrap Template by uicookies.com">
                                 </figure>
                                 <blockquote class="quote">&ldquo;I think design would be better if designers were much more skeptical about its applications. If you believe in the potency of your craft, where you choose to dole it out is not something to take lightly.&rdquo; <cite class="author">&mdash; <span>Brandon White</span></cite></blockquote>
                             </div>
@@ -290,7 +253,7 @@
     <section class="probootstrap-half">
         <div class="image">
             <div class="image-bg">
-                <img src="img/img_sq_5_big.jpg" alt="Free Bootstrap Template by uicookies.com">
+                <img src="<?php echo ASSET_URL ?>img/img_sq_5_big.jpg" alt="Free Bootstrap Template by uicookies.com">
             </div>
         </div>
         <div class="text">
@@ -325,7 +288,7 @@
                 </div>
                 <div class="col-md-6 probootstrap-animate">
                     <h3>About Us</h3>
-                    <p><img src="img/img_sm_2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></p>
+                    <p><img src="<?php echo ASSET_URL ?>img/img_sm_2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem porro impedit, perferendis similique voluptatum reiciendis laudantium iusto ad, eligendi non minus nemo tempora? Non velit ab quasi at dignissimos fugiat.</p>
                     <p><a href="#" class="btn btn-primary">Learn More</a></p>
                 </div>
@@ -334,38 +297,38 @@
 
                     <div class="owl-carousel owl-carousel-fullwidth">
                         <div class="item">
-                            <a href="img/img_sq_1.jpg" class="image-popup">
-                                <img src="img/img_sq_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                            <a href="<?php echo ASSET_URL ?>img/img_sq_1.jpg" class="image-popup">
+                                <img src="<?php echo ASSET_URL ?>img/img_sq_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                             </a>
                         </div>
                         <div class="item">
-                            <a href="img/img_sq_2.jpg" class="image-popup">
-                                <img src="img/img_sq_2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                            <a href="<?php echo ASSET_URL ?>img/img_sq_2.jpg" class="image-popup">
+                                <img src="<?php echo ASSET_URL ?>img/img_sq_2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                             </a>
                         </div>
                         <div class="item">
-                            <a href="img/img_sq_3.jpg" class="image-popup">
-                                <img src="img/img_sq_3.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                            <a href="<?php echo ASSET_URL ?>img/img_sq_3.jpg" class="image-popup">
+                                <img src="<?php echo ASSET_URL ?>img/img_sq_3.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                             </a>
                         </div>
                         <div class="item">
-                            <a href="img/img_sq_4.jpg" class="image-popup">
-                                <img src="img/img_sq_4.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                            <a href="<?php echo ASSET_URL ?>img/img_sq_4.jpg" class="image-popup">
+                                <img src="<?php echo ASSET_URL ?>img/img_sq_4.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                             </a>
                         </div>
                         <div class="item">
-                            <a href="img/img_sq_5.jpg" class="image-popup">
-                                <img src="img/img_sq_5.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                            <a href="<?php echo ASSET_URL ?>img/img_sq_5.jpg" class="image-popup">
+                                <img src="<?php echo ASSET_URL ?>img/img_sq_5.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                             </a>
                         </div>
                         <div class="item">
-                            <a href="img/img_sq_6.jpg" class="image-popup">
-                                <img src="img/img_sq_6.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                            <a href="<?php echo ASSET_URL ?>img/img_sq_6.jpg" class="image-popup">
+                                <img src="<?php echo ASSET_URL ?>img/img_sq_6.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                             </a>
                         </div>
                         <div class="item">
-                            <a href="img/img_sq_7.jpg" class="image-popup">
-                                <img src="img/img_sq_7.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
+                            <a href="<?php echo ASSET_URL ?>img/img_sq_7.jpg" class="image-popup">
+                                <img src="<?php echo ASSET_URL ?>img/img_sq_7.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive">
                             </a>
                         </div>
                     </div>
@@ -376,3 +339,10 @@
             </div>
         </div>
     </section>
+
+
+    <?php include 'include/footer.php'; ?>
+
+</body>
+
+</html>

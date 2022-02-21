@@ -113,38 +113,9 @@ $route = new Route();
 
 //route address and home.php file location
 $route->add("/koneksi", "config/koneksi.php");
-$route->add("/", "view/index.php");
-$route->add("/about_us", "view/about_us.php");
-$route->add("/why_us", "view/why_us.php");
-// $route->add("/careers", "view/career.php");
-// $route->add("/our_team", "view/our_team.php");
+$route->add("/", "view/home.php");
 
-$route->add("/option_trading", "view/option_trading.php");
-$route->add("/etf_trading", "view/etf_trading.php");
-$route->add("/investment_banking", "view/investment_banking.php");
-$route->add("/fixed_income_trading", "view/fixed_income_trading.php");
-$route->add("/wealth_management", "view/wealth_management.php");
-
-$route->add("/mergers", "view/mergers.php");
-$route->add("/institutional_trading", "view/institutional_trading.php");
-$route->add("/retail_trading", "view/retail_trading.php");
-$route->add("/portfolio_management", "view/portfolio_management.php");
-$route->add("/ecm_trading", "view/ecm_trading.php");
-
-$route->add("/contact", "view/contact.php");
-
-$route->add("/retirement_calculator", "view/retirement_calculator.php");
-$route->add("/calculator", "view/calc/calculator.php");
-$route->add("/research", "view/research.php");
-
-$route->add("/login", "view/auth/login.php");
-$route->add("/send_email", "view/send_email.php");
-$route->add("/logout", "view/auth/logout.php");
-
-$route->add("/ipo", "view/ipo.php");
-$route->add("/ipo/all", "view/ipo_all.php");
 $route->add("/ipo/{ipo}", "view/detail_ipo.php");
 
-$route->add("/our-vision-and-values", "view/vision.php");
 
 $route->notFound("view/404.php");

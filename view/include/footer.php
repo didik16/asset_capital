@@ -106,6 +106,6 @@
      </div>
  </footer>
 
- <script src="js/scripts.min.js"></script>
- <script src="js/main.min.js"></script>
- <script src="js/custom.js"></script>
+ <script src="<?php echo ASSET_URL ?>js/scripts.min.js"></script>
+ <script src="<?php echo ASSET_URL ?>js/main.min.js"></script>
+ <script src="<?php echo ASSET_URL ?>js/custom.js"></script>
