@@ -114,6 +114,7 @@ $route = new Route();
 //route address and home.php file location
 $route->add("/koneksi", "config/koneksi.php");
 $route->add("/", "view/home.php");
+$route->add("/about", "view/home.php");
 
 $route->add("/ipo/{ipo}", "view/detail_ipo.php");
 

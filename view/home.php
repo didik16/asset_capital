@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="probootstrap-slider-text probootstrap-animate" data-animate-effect="fadeIn">
-                        <h1 class="probootstrap-heading probootstrap-animate">Donate <span>Together we can make a difference</span></h1>
+                        <h1 class="probootstrap-heading probootstrap-animate">Asset Capital Holdings Limited <span>Together we can make a difference</span></h1>
                         <p class="probootstrap-animate"><a href="#" class="btn btn-primary btn-lg">Donate Now</a></p>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
                             <i class="icon-wallet"></i>
                         </div>
                         <div class="text">
-                            <h2>Give Donation</h2>
+                            <h2>Wealth Management</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                             <p><a href="#">Lear More</a></p>
                         </div>
@@ -37,7 +37,7 @@
                             <i class="icon-heart"></i>
                         </div>
                         <div class="text">
-                            <h2>Become Volunteer</h2>
+                            <h2>IPO</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                             <p><a href="#">Lear More</a></p>
                         </div>

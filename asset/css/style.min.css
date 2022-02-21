@@ -307,6 +307,7 @@
    text-indent: -999999px;
    -webkit-transition: 0.2s all;
    transition: 0.2s all;
+   background-size: cover;
  }
  @media screen and (max-width: 768px) {
    .probootstrap-navbar .navbar-brand {
@@ -325,7 +326,7 @@
      position: relative;
      width: 220px;
      height: 43px;
-     background: url(../img/logo@2x.png) left 100% no-repeat;
+     background: url(../img/logo.png) left 100% no-repeat;
      background-size: cover;
    }
  }
